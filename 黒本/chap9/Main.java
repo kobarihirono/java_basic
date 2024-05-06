@@ -18,5 +18,9 @@ public class Main {
         for (Sample s : list) {
             System.out.println(s.getName());
         }
+
+        // String[] a = {"B", "A"};
+        // String[] b = {"A", "B"};
+        // System.out.println(Arrays.compare(a, b)); // 1
     }
 }
