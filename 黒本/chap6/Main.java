@@ -6,5 +6,15 @@ public class Main {
         // String val = s.getValue("hello");
         s.getValue();
         // System.out.println(val);
+
+        int number = 10;
+        System.out.println("Before method call: " + number);
+        increase(number);
+        System.out.println("After method call: " + number);
+    }
+
+    public static void increase(int num) {
+        num = num + 5;
+        System.out.println("Inside method: " + num);
     }
 }
