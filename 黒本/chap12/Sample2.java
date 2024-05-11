@@ -28,7 +28,7 @@ public class Sample2 {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // toStringメソッドはSystem.out.printlnで自動的に呼び出される
         return "Sample2 [a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + "]";
     }
 
